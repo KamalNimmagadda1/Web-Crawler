@@ -1,0 +1,40 @@
+Name: Kamala Sai Theja Nimmagadda
+USC ID: 6986899979
+News site crawled: usatoday.com
+Number of threads: 9
+
+Fetch Statistics
+==============
+# fetches attempted: 20000
+# fetches succeeded: 19259
+# fetches failed or aborted: 741
+
+Outgoing URLs:
+==============
+Total URLs extracted: 2430401
+# unique URLs extracted: 805312
+# unique URLs within News Site: 602760
+# unique URLs outside News Site: 202552
+
+Status Codes:
+=============
+200 OK: 19259
+301 Moved Permanently: 722
+302 Moved Temporarily: 1
+307 Temporary Redirect: 2
+500 Internal Server Error: 14
+502 Bad Gateway: 2
+
+File Sizes:
+===========
+< 1KB: 0
+1KB ~ <10KB: 1
+10KB ~ <100KB: 199
+100KB ~ <1MB: 19013
+>= 1MB: 46
+
+Content Types:
+==============
+text/html: 19258
+image/svg+xml: 1
+
