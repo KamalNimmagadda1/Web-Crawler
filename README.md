@@ -41,42 +41,42 @@ indicator of whether the URL a. resides in the website (OK), or b. points outsid
 (N_OK). (A file points out of the website if its URL does not start with the initial host/domain
 name, e.g. when crawling USA Today news website all inside URLs must start with
 .) Name the file urls_NewsSite.csv. This file will be much larger than
-fetch_*.csv and visit_*.csv.
+fetch_*.csv and visit_*.csv.\
 For example for New York Times- the URL and the
 URL are both considered as residing in the same website
 whereas the following URL is not considered to be in the same website,
-http://store.nytimes.com/
+http://store.nytimes.com/ \
 Based on the information recorded by the crawler in the output files above, you are to collate the
-following statistics for a crawl of your designated news website:
-● Fetch statistics:
-o # fetches attempted:
+following statistics for a crawl of your designated news website:\
+● Fetch statistics:\
+o # fetches attempted:\
 The total number of URLs that the crawler attempted to fetch. This is usually equal to the
 MAXPAGES setting if the crawler reached that limit; less if the website is smaller than that.
-o # fetches succeeded:
+o # fetches succeeded:\
 The number of URLs that were successfully downloaded in their entirety, i.e. returning a
-HTTP status code of 2XX.
-o # fetches failed or aborted:
+HTTP status code of 2XX.\
+o # fetches failed or aborted:\
 The number of fetches that failed for whatever reason, including, but not limited to: HTTP
 3
 redirections (3XX), client errors (4XX), server errors (5XX) and other network-related
-errors.1
-● Outgoing URLs: statistics about URLs extracted from visited HTML pages
-o Total URLs extracted:
-The grand total number of URLs extracted (including repeats) from all visited pages
-o # unique URLs extracted:
-The number of unique URLs encountered by the crawler
-o # unique URLs within your news website:
+errors.1\
+● Outgoing URLs: statistics about URLs extracted from visited HTML pages\
+o Total URLs extracted:\
+The grand total number of URLs extracted (including repeats) from all visited pages\
+o # unique URLs extracted:\
+The number of unique URLs encountered by the crawler\
+o # unique URLs within your news website:\
 The number of unique URLs encountered that are associated with the news website,
 i.e. the URL begins with the given root URL of the news website, but the remainder of the
-URL is distinct
-o # unique URLs outside the news website:
-The number of unique URLs encountered that were not from the news website.
+URL is distinct\
+o # unique URLs outside the news website:\
+The number of unique URLs encountered that were not from the news website.\
 ● Status codes: number of times various HTTP status codes were encountered during crawling,
-including (but not limited to): 200, 301, 401, 402, 404, etc.
+including (but not limited to): 200, 301, 401, 402, 404, etc.\
 ● File sizes: statistics about file sizes of visited URLs – the number of files in each size range
-(See Appendix A).
-o 1KB = 1024B; 1MB = 1024KB
-● Content Type: a list of the different content-types encountered
+(See Appendix A).\
+o 1KB = 1024B; 1MB = 1024KB\
+● Content Type: a list of the different content-types encountered\
 These statistics should be collated and submitted as a plain text file whose name is
 CrawlReport_NewsSite.txt, following the format given in Appendix A at the end of this document.
 Make sure you understand the crawler code and required output before you commence collating
