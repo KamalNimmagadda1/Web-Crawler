@@ -32,7 +32,7 @@ Column names for this file can be URL and Status
 2. the files it successfully downloads, a four column spreadsheet, column 1 containing the
 URLs successfully downloaded, column 2 containing the size of the downloaded file (in
 Bytes, or you can choose your own preferred unit (bytes,kb,mb)), column 3 containing the
-# of outlinks found, and column 4 containing the resulting content-type; name the file
+number of outlinks found, and column 4 containing the resulting content-type; name the file
 visit_NewsSite.csv; clearly the number of rows will be less than the number of rows in
 fetch_NewsSite.csv
 3. all of the URLs (including repeats) that were discovered and processed in some way; a two
